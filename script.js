@@ -117,7 +117,8 @@ if (finalImage.complete && finalImage.naturalWidth === 0) hideUnavailableImage()
     loader.setAttribute('aria-hidden', 'true');
     loader.innerHTML = `
       <div class="fitora-loader__content">
-        <div class="fitora-loader__mark">✳</div>
+        <div class="fitora-loader__mark">
+        <img class="fitora-loader__logo" src="src/loog2.png" alt="" width="60" height="60"></div>
         <div class="fitora-loader__brand">Fitora</div>
         <div class="fitora-loader__caption">FIT MIND · FIT LIFE</div>
         <div class="fitora-loader__line"></div>
